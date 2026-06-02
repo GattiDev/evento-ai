@@ -1,0 +1,27 @@
+# ====================================================
+#  EventoAI - Dependencias del Backend (Python)
+#  Autor:  GattiDev
+#  Fecha:  01/06/2026
+#
+#  Instalar con:
+#  pip install -r requirements.txt
+# ====================================================
+
+# Servidor web y framework de la API REST
+fastapi
+
+# Servidor ASGI que corre FastAPI (reemplaza a Flask dev server)
+uvicorn[standard]
+
+# Cliente HTTP asíncrono para llamar a Hugging Face y OpenAI
+httpx
+
+# Validación automática de datos que llegan al backend
+pydantic
+
+# Soporte para subida de archivos (usado en rutas de admin)
+python-multipart
+
+# Lee el archivo .env y carga las variables de entorno
+# Permite tener HF_API_KEY en un archivo local sin hardcodearla
+python-dotenv
