@@ -48,7 +48,7 @@ import { useState, useEffect } from "react";
 // En desarrollo local:  http://localhost:8000
 // En producción Render: https://eventoai-api.onrender.com
 // Cambiá esta línea según donde esté corriendo el backend
-const API_BASE = "https://eventoai-api.onrender.com";
+const API_BASE = "http://localhost:8000";
 
 // ══════════════════════════════════════════════════════════
 //  [1] ESTILOS GLOBALES (CSS-in-JS)
